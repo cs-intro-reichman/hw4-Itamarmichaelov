@@ -18,6 +18,17 @@ public class Primes {
                 counter++;  
             }
         }
-        System.out.println("There are "+counter+" primes between 2 to "+members+" ");
+        System.out.println("Prime numbers up to " + members + ":");
+
+for (int i = 2; i <= members; i++) {
+    if (arr1[i]) {
+        System.out.println(i);
+        counter++;
+    }
+}
+
+
+double percentage = (counter / (double) members) * 100;
+System.out.println("There are " + counter + " primes between 2 and " + members + " (" + (int) percentage + "% are primes)");
 }
 }
