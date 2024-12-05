@@ -29,6 +29,6 @@ for (int i = 2; i <= members; i++) {
 
 
 double percentage = (counter / (double) members) * 100;
-System.out.println("There are " + counter + " primes between 2 and " + members + " (" + (int) percentage + "% are primes)");
+System.out.println("There are " + counter + " primes between 2 to " + members + " (" + (int) percentage + "% are primes)");
 }
 }
