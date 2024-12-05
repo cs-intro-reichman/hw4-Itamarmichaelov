@@ -18,6 +18,6 @@ public class Primes {
                 counter++;  
             }
         }
-        System.out.println("Prime numbers up to "+members+":");
+        System.out.println("There are "+counter+" primes between 2 to "+members+" ");
 }
 }
